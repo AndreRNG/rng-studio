@@ -482,29 +482,29 @@
       "id": "genio",
       "name": "Genio",
       "tagline": "Voice assistant",
-      "version": "2.0.1",
-      "build": 201,
+      "version": "2.0.2",
+      "build": 202,
       "icon": "https://www.rng.media/images/brands/apps/genio.webp",
       "installers": {
         "linux-x86_64": {
-          "url": "https://www.rng.media/downloads/genio-v2.0.1.tar.gz",
-          "sha256": "b1a4e80ba05b11af5c7fa5c7002fdaf7afe97a90fadded9c2011004fa26797b7",
-          "size": 1527967,
-          "installer": "genio-v2.0.1/install.sh",
+          "url": "https://www.rng.media/downloads/genio-v2.0.2.tar.gz",
+          "sha256": "04910bb19bd2a67cc850e5d0ee8b93127109dfdacbb8ebc0238009af567467f3",
+          "size": 1440612,
+          "installer": "genio-v2.0.2/install.sh",
           "terminal": true,
           "detect": "~/.local/share/applications/genio.desktop"
         },
         "windows-x86_64": {
-          "url": "https://www.rng.media/downloads/genio-v2.0.1-win.zip",
-          "sha256": "dbed88ede88dfce85a44d75defd3d36e3f277a35a3dfbb4c9c674939422b8dd8",
-          "size": 1553269,
-          "installer": "genio-v2.0.1-win/install.cmd",
+          "url": "https://www.rng.media/downloads/genio-v2.0.2-win.zip",
+          "sha256": "06b8c6c14a987977f772c053cf243f6191196e2d6aa9e57adb13eb7fcd1d9328",
+          "size": 1466159,
+          "installer": "genio-v2.0.2-win/install.cmd",
           "detect": "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Genio.lnk"
         },
         "macos-x86_64": {
-          "url": "https://www.rng.media/downloads/Genio-v2.0.1-mac-intel.zip",
-          "sha256": "ad8745a298098d7390b26cf7457b5761af9ae3c66c415563af7fded75ff12be8",
-          "size": 185799085,
+          "url": "https://www.rng.media/downloads/Genio-v2.0.2-mac-intel.zip",
+          "sha256": "a27cd79e9ff6a4519d8acd84add7b5016ea374256fd34c17b078c465e9f21adb",
+          "size": 185599185,
           "exe": "Genio.app",
           "detect": "~/Applications/Genio.app"
         }
