@@ -1,5 +1,171 @@
 {
   "schema": 1,
-  "launcher": null,
-  "apps": []
+  "launcher": {
+    "id": "launchllama",
+    "name": "LaunchLlama",
+    "version": "0.1.0",
+    "build": 1,
+    "platforms": {
+      "linux-x86_64": {
+        "sha256": "919cc7c7ddffa3af2e7a4644ca0dbe0a3ae06bc21f00abde84dcdf2f35245beb",
+        "size": 5256872,
+        "exe": "LaunchLlama/launchllama",
+        "url": "https://github.com/AndreRNG/launchllama/releases/download/launchllama-b1/LaunchLlama-0.1.0-b1-linux-x86_64.tar.gz"
+      },
+      "windows-x86_64": {
+        "sha256": "453c63b8b4e0aa23fb52cfd5f7cc2f52f4ced736ff0d9582f4a70a7e5a951552",
+        "size": 9003520,
+        "exe": "LaunchLlama-0.1.0-b1-windows-x86_64.exe",
+        "url": "https://github.com/AndreRNG/launchllama/releases/download/launchllama-b1/LaunchLlama-0.1.0-b1-windows-x86_64.exe"
+      },
+      "macos-universal": {
+        "sha256": "4583999a79b4fa727f2663668ffdc2081faee7259d9f44ae286292e46302d783",
+        "size": 8525978,
+        "exe": "LaunchLlama.app",
+        "url": "https://github.com/AndreRNG/launchllama/releases/download/launchllama-b1/LaunchLlama-0.1.0-b1-macos-universal.zip"
+      }
+    }
+  },
+  "apps": [
+    {
+      "id": "cutcat",
+      "name": "CutCat",
+      "tagline": "Video editor",
+      "wm_class": "media.rng.filmcraft",
+      "version": "0.20.1",
+      "build": 1,
+      "platforms": {
+        "linux-x86_64": {
+          "sha256": "5ef9eb7250ff0151678aff815d79ee31f61f7030315fc5eaa3cc9f6b30c6726d",
+          "size": 31880188,
+          "exe": "CutCat/filmcraft",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/cutcat-b1/CutCat-0.20.1-b1-linux-x86_64.tar.gz"
+        },
+        "macos-universal": {
+          "sha256": "bd0e53abf8c02cafcd217ebfc3756bcb1ec05e3784b41cbae2d5d6f5ef2ec4f6",
+          "size": 54622964,
+          "exe": "CutCat.app",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/cutcat-b1/CutCat-0.20.1-b1-macos-universal.zip"
+        },
+        "windows-x86_64": {
+          "sha256": "062e191c1faff7bf3d00bc94b1b199a4dbc974fb13b843ca0bf891d59cbe1fc1",
+          "size": 28398106,
+          "exe": "CutCat/filmcraft.exe",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/cutcat-b1/CutCat-0.20.1-b1-windows-x86_64.zip"
+        }
+      }
+    },
+    {
+      "id": "photofalcon",
+      "name": "PhotoFalcon",
+      "tagline": "Photo editor",
+      "wm_class": "media.rng.photofalcon",
+      "version": "0.23.1",
+      "build": 2,
+      "platforms": {
+        "linux-x86_64": {
+          "sha256": "a8054957dcd921953f7256fd20ac5eb42b0b61fd9a64d3ce43c1a11a25184e4b",
+          "size": 50681366,
+          "exe": "PhotoFalcon/photocraft",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/photofalcon-b2/PhotoFalcon-0.23.1-b2-linux-x86_64.tar.gz"
+        },
+        "macos-universal": {
+          "sha256": "316ce7c57be0e165432f782adfcb1a2c1cd6079386028046fdc41940a01362b9",
+          "size": 91454328,
+          "exe": "PhotoFalcon.app",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/photofalcon-b2/PhotoFalcon-0.23.1-b2-macos-universal.zip"
+        },
+        "windows-x86_64": {
+          "sha256": "11f558435dcfc4e30d6946f2b119366eb29cb844cafdedeae77f0b478343e4cc",
+          "size": 46698652,
+          "exe": "PhotoFalcon/photocraft.exe",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/photofalcon-b2/PhotoFalcon-0.23.1-b2-windows-x86_64.zip"
+        }
+      }
+    },
+    {
+      "id": "pdfrog",
+      "name": "PDFrog",
+      "tagline": "PDF editor",
+      "wm_class": "media.rng.pdfrog",
+      "version": "0.21.1",
+      "build": 3,
+      "platforms": {
+        "linux-x86_64": {
+          "sha256": "75f0ed23f5e92629f2ef51d68221a87aab2411e5e68655d0d499c28e0122c62d",
+          "size": 39230313,
+          "exe": "PDFrog/pdfcraft",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/pdfrog-b3/PDFrog-0.21.1-b3-linux-x86_64.tar.gz"
+        },
+        "macos-universal": {
+          "sha256": "e2042cb9449c1d30c6b327042416374b83d7eefa5aadad135afa86d1dc3c0907",
+          "size": 69253543,
+          "exe": "PDFrog.app",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/pdfrog-b3/PDFrog-0.21.1-b3-macos-universal.zip"
+        },
+        "windows-x86_64": {
+          "sha256": "2d706a61801b5b3c5ff80a7c94f901d23b120b8611e76b858f454e2f32879454",
+          "size": 35255763,
+          "exe": "PDFrog/pdfcraft.exe",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/pdfrog-b3/PDFrog-0.21.1-b3-windows-x86_64.zip"
+        }
+      }
+    },
+    {
+      "id": "docdog",
+      "name": "DocDog",
+      "tagline": "Word processor",
+      "wm_class": "media.rng.docdog",
+      "version": "0.18.1",
+      "build": 4,
+      "platforms": {
+        "linux-x86_64": {
+          "sha256": "4450cf23ef59d27678ab97e56f0d221de77fb063c5cd36521dd8bd7cab48e982",
+          "size": 38877507,
+          "exe": "DocDog/wordcraft",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/docdog-b4/DocDog-0.18.1-b4-linux-x86_64.tar.gz"
+        },
+        "macos-universal": {
+          "sha256": "a8cb87dcfb1a205faf191571397e2e02ec0e9e88a918600091ca9554674f5481",
+          "size": 67232368,
+          "exe": "DocDog.app",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/docdog-b4/DocDog-0.18.1-b4-macos-universal.zip"
+        },
+        "windows-x86_64": {
+          "sha256": "297e5f52fd094ace3a66383c2b0e073c8bd691f80dfd966168fcdd860b4fb8c3",
+          "size": 34471670,
+          "exe": "DocDog/wordcraft.exe",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/docdog-b4/DocDog-0.18.1-b4-windows-x86_64.zip"
+        }
+      }
+    },
+    {
+      "id": "deckduck",
+      "name": "DeckDuck",
+      "tagline": "Slide decks",
+      "wm_class": "media.rng.deckduck",
+      "version": "0.19.0",
+      "build": 5,
+      "platforms": {
+        "linux-x86_64": {
+          "sha256": "deffb3c2624a4e3e1ae3b9888c57e80418dc2ee7785414d51346ab957ac9c8c5",
+          "size": 24938142,
+          "exe": "DeckDuck/deckcraft",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/deckduck-b5/DeckDuck-0.19.0-b5-linux-x86_64.tar.gz"
+        },
+        "macos-universal": {
+          "sha256": "7e222e4111107f687bcf9540b36142311d1635571e64f0d301a9c020bff7b045",
+          "size": 41387906,
+          "exe": "DeckDuck.app",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/deckduck-b5/DeckDuck-0.19.0-b5-macos-universal.zip"
+        },
+        "windows-x86_64": {
+          "sha256": "7d95761f1a054139bec2f76c99192cde3a30c86a33039b44319dbfc34206edc1",
+          "size": 21596076,
+          "exe": "DeckDuck/deckcraft.exe",
+          "url": "https://github.com/AndreRNG/launchllama/releases/download/deckduck-b5/DeckDuck-0.19.0-b5-windows-x86_64.zip"
+        }
+      }
+    }
+  ]
 }
