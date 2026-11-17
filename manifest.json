@@ -1,28 +1,28 @@
 {
   "schema": 1,
   "launcher": {
-    "id": "launchllama",
-    "name": "LaunchLlama",
+    "id": "studio",
+    "name": "RNG Studio",
     "version": "0.1.0",
-    "build": 1,
+    "build": 2,
     "platforms": {
       "linux-x86_64": {
-        "sha256": "919cc7c7ddffa3af2e7a4644ca0dbe0a3ae06bc21f00abde84dcdf2f35245beb",
-        "size": 5256872,
-        "exe": "LaunchLlama/launchllama",
-        "url": "https://github.com/AndreRNG/launchllama/releases/download/launchllama-b1/LaunchLlama-0.1.0-b1-linux-x86_64.tar.gz"
+        "sha256": "50ebcdc85e3d3b88f2226d5260d1541f5e0ea6b70919d796725c2ea8ce041270",
+        "size": 5230284,
+        "exe": "RNG Studio/rng-studio",
+        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b2/RNG-Studio-0.1.0-b2-linux-x86_64.tar.gz"
       },
       "windows-x86_64": {
-        "sha256": "453c63b8b4e0aa23fb52cfd5f7cc2f52f4ced736ff0d9582f4a70a7e5a951552",
-        "size": 9003520,
-        "exe": "LaunchLlama-0.1.0-b1-windows-x86_64.exe",
-        "url": "https://github.com/AndreRNG/launchllama/releases/download/launchllama-b1/LaunchLlama-0.1.0-b1-windows-x86_64.exe"
+        "sha256": "f1b7fe227091f51ff9eb0a2a151b8967746728d221cede0861dc8930c61e3244",
+        "size": 8991232,
+        "exe": "RNG-Studio-0.1.0-b2-windows-x86_64.exe",
+        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b2/RNG-Studio-0.1.0-b2-windows-x86_64.exe"
       },
       "macos-universal": {
-        "sha256": "4583999a79b4fa727f2663668ffdc2081faee7259d9f44ae286292e46302d783",
-        "size": 8525978,
-        "exe": "LaunchLlama.app",
-        "url": "https://github.com/AndreRNG/launchllama/releases/download/launchllama-b1/LaunchLlama-0.1.0-b1-macos-universal.zip"
+        "sha256": "e5f41c178ff59d0ece26b9877d9ce93e7fe5c83d01c9315a65ddb4620582a0ec",
+        "size": 8292738,
+        "exe": "RNG Studio.app",
+        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b2/RNG-Studio-0.1.0-b2-macos-universal.zip"
       }
     }
   },
