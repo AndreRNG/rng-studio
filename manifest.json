@@ -4,25 +4,25 @@
     "id": "studio",
     "name": "RNG Studio",
     "version": "0.1.0",
-    "build": 2,
+    "build": 10,
     "platforms": {
       "linux-x86_64": {
-        "sha256": "50ebcdc85e3d3b88f2226d5260d1541f5e0ea6b70919d796725c2ea8ce041270",
-        "size": 5230284,
+        "sha256": "c4a5d39d1f98a1adfbba0e0408bb065cfb4ef5808d308674e8b77f14b7f0a658",
+        "size": 5509831,
         "exe": "RNG Studio/rng-studio",
-        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b2/RNG-Studio-0.1.0-b2-linux-x86_64.tar.gz"
+        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b10/RNG-Studio-0.1.0-b10-linux-x86_64.tar.gz"
       },
       "windows-x86_64": {
-        "sha256": "f1b7fe227091f51ff9eb0a2a151b8967746728d221cede0861dc8930c61e3244",
-        "size": 8991232,
-        "exe": "RNG-Studio-0.1.0-b2-windows-x86_64.exe",
-        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b2/RNG-Studio-0.1.0-b2-windows-x86_64.exe"
+        "sha256": "a1716d9a69d88c938aa41b77d44776d4f4adef5fb8d15a951155648a7a124ec0",
+        "size": 9600000,
+        "exe": "RNG-Studio-0.1.0-b10-windows-x86_64.exe",
+        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b10/RNG-Studio-0.1.0-b10-windows-x86_64.exe"
       },
       "macos-universal": {
-        "sha256": "e5f41c178ff59d0ece26b9877d9ce93e7fe5c83d01c9315a65ddb4620582a0ec",
-        "size": 8292738,
+        "sha256": "5348fd2d9e593d269edacd3730c3aaa0f1fc4bef998f93faaac4ad0da03e9dc8",
+        "size": 8852358,
         "exe": "RNG Studio.app",
-        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b2/RNG-Studio-0.1.0-b2-macos-universal.zip"
+        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b10/RNG-Studio-0.1.0-b10-macos-universal.zip"
       }
     }
   },
@@ -283,60 +283,200 @@
       }
     },
     {
-      "id": "docdog",
-      "name": "DocDog",
+      "id": "docduck",
+      "name": "DocDuck",
       "tagline": "Word processor",
-      "wm_class": "media.rng.docdog",
+      "wm_class": "media.rng.docduck",
       "version": "0.18.1",
-      "build": 4,
+      "build": 8,
       "platforms": {
         "linux-x86_64": {
-          "sha256": "4450cf23ef59d27678ab97e56f0d221de77fb063c5cd36521dd8bd7cab48e982",
-          "size": 38877507,
-          "exe": "DocDog/wordcraft",
-          "url": "https://github.com/AndreRNG/launchllama/releases/download/docdog-b4/DocDog-0.18.1-b4-linux-x86_64.tar.gz"
+          "sha256": "62245e6a5ceed072a659d72b39ead2ae749d7f8a346b17b2d2dd3bc675fc4a27",
+          "size": 38813666,
+          "exe": "DocDuck/wordcraft",
+          "url": "https://github.com/AndreRNG/rng-studio/releases/download/docduck-b8/DocDuck-0.18.1-b8-linux-x86_64.tar.gz"
         },
         "macos-universal": {
-          "sha256": "a8cb87dcfb1a205faf191571397e2e02ec0e9e88a918600091ca9554674f5481",
-          "size": 67232368,
-          "exe": "DocDog.app",
-          "url": "https://github.com/AndreRNG/launchllama/releases/download/docdog-b4/DocDog-0.18.1-b4-macos-universal.zip"
+          "sha256": "71c0e64f74485c758315c9c69aa8f18d2c34d11b1b17d6def9453d914a8ae592",
+          "size": 67274767,
+          "exe": "DocDuck.app",
+          "url": "https://github.com/AndreRNG/rng-studio/releases/download/docduck-b8/DocDuck-0.18.1-b8-macos-universal.zip"
         },
         "windows-x86_64": {
-          "sha256": "297e5f52fd094ace3a66383c2b0e073c8bd691f80dfd966168fcdd860b4fb8c3",
-          "size": 34471670,
-          "exe": "DocDog/wordcraft.exe",
-          "url": "https://github.com/AndreRNG/launchllama/releases/download/docdog-b4/DocDog-0.18.1-b4-windows-x86_64.zip"
+          "sha256": "d6f5226da51421a29cba530d76354431540c1244decc9c50adaecfc88dc7fd1f",
+          "size": 34397384,
+          "exe": "DocDuck/wordcraft.exe",
+          "url": "https://github.com/AndreRNG/rng-studio/releases/download/docduck-b8/DocDuck-0.18.1-b8-windows-x86_64.zip"
         }
-      }
+      },
+      "about": {
+        "pitch": "A word processor that just gets on with it.",
+        "intro": "Write, format and review documents with the ribbon you already know. Reads and writes .docx, exports PDF, and works offline.",
+        "description": "Ribbon tabs, styles, shortcuts and lists that behave the way you expect. Open a .docx from anyone, track changes and comments with your team, and send back a clean PDF. Spelling, grammar and everything else run on your computer.",
+        "features": [
+          {
+            "title": "The ribbon you know",
+            "body": "Home, Insert, Layout, References, Review and View, with live style previews and the shortcuts already in your fingers."
+          },
+          {
+            "title": "Your files",
+            "body": "Opens and saves .docx, plus .odt, .rtf, .html, .md and .txt, opens old .doc files, and exports PDF with real, selectable text."
+          },
+          {
+            "title": "Review together",
+            "body": "Comments in the margin, track changes with accept and reject, and compare two versions of a document."
+          },
+          {
+            "title": "References",
+            "body": "Tables of contents, footnotes, citations and bibliographies, captions and cross-references."
+          },
+          {
+            "title": "Tables and pages",
+            "body": "Table styles, headers and footers, columns, page numbers, watermarks and section breaks."
+          },
+          {
+            "title": "Read mode and focus",
+            "body": "A distraction-free Read mode, Focus mode, a Navigation pane and a proper dark mode."
+          }
+        ],
+        "screenshots": [
+          {
+            "url": "https://www.rng.media/images/apps/docduck/write.webp",
+            "width": 1600,
+            "height": 1000,
+            "title": "Write",
+            "caption": "The Home ribbon with fonts, paragraphs and a live styles gallery, around a real page."
+          },
+          {
+            "url": "https://www.rng.media/images/apps/docduck/review.webp",
+            "width": 1600,
+            "height": 1000,
+            "title": "Review",
+            "caption": "Track changes and comments, the way your team already works."
+          },
+          {
+            "url": "https://www.rng.media/images/apps/docduck/pages.webp",
+            "width": 1600,
+            "height": 1000,
+            "title": "Lay it out",
+            "caption": "Multiple pages at once, with headings in the Navigation pane."
+          },
+          {
+            "url": "https://www.rng.media/images/apps/docduck/read.webp",
+            "width": 1600,
+            "height": 1000,
+            "title": "Read",
+            "caption": "Read mode reflows the document into easy columns for reading on screen."
+          }
+        ],
+        "page": "https://www.rng.media/docduck",
+        "credit": "DocDuck is based on WordCraft by the ArtCraft team, licensed MIT OR Apache-2.0, and modified by RNG Media S.L. RNG Media is not affiliated with or endorsed by the ArtCraft team.",
+        "licences": "https://github.com/AndreRNG/rng-studio/tree/main/licences/docduck"
+      },
+      "replaces": [
+        {
+          "id": "docdog",
+          "name": "DocDog"
+        }
+      ]
     },
     {
-      "id": "deckduck",
-      "name": "DeckDuck",
+      "id": "slideseal",
+      "name": "SlideSeal",
       "tagline": "Slide decks",
-      "wm_class": "media.rng.deckduck",
+      "wm_class": "media.rng.slideseal",
       "version": "0.19.0",
-      "build": 5,
+      "build": 9,
       "platforms": {
         "linux-x86_64": {
-          "sha256": "deffb3c2624a4e3e1ae3b9888c57e80418dc2ee7785414d51346ab957ac9c8c5",
-          "size": 24938142,
-          "exe": "DeckDuck/deckcraft",
-          "url": "https://github.com/AndreRNG/launchllama/releases/download/deckduck-b5/DeckDuck-0.19.0-b5-linux-x86_64.tar.gz"
+          "sha256": "25f540497d82c38e1426874df07e23a14831522c8e05d2876d8e888b2974e4f5",
+          "size": 24932994,
+          "exe": "SlideSeal/deckcraft",
+          "url": "https://github.com/AndreRNG/rng-studio/releases/download/slideseal-b9/SlideSeal-0.19.0-b9-linux-x86_64.tar.gz"
         },
         "macos-universal": {
-          "sha256": "7e222e4111107f687bcf9540b36142311d1635571e64f0d301a9c020bff7b045",
-          "size": 41387906,
-          "exe": "DeckDuck.app",
-          "url": "https://github.com/AndreRNG/launchllama/releases/download/deckduck-b5/DeckDuck-0.19.0-b5-macos-universal.zip"
+          "sha256": "7d527db0b35522e24d4c5c0dd8a972940cb5d0d73478d004c5eee412d7afd286",
+          "size": 41363021,
+          "exe": "SlideSeal.app",
+          "url": "https://github.com/AndreRNG/rng-studio/releases/download/slideseal-b9/SlideSeal-0.19.0-b9-macos-universal.zip"
         },
         "windows-x86_64": {
-          "sha256": "7d95761f1a054139bec2f76c99192cde3a30c86a33039b44319dbfc34206edc1",
-          "size": 21596076,
-          "exe": "DeckDuck/deckcraft.exe",
-          "url": "https://github.com/AndreRNG/launchllama/releases/download/deckduck-b5/DeckDuck-0.19.0-b5-windows-x86_64.zip"
+          "sha256": "ed979a1e12fea9a5d6c0ebcf925b9a7ffad873e18453ff059167b12214e181c0",
+          "size": 21634294,
+          "exe": "SlideSeal/deckcraft.exe",
+          "url": "https://github.com/AndreRNG/rng-studio/releases/download/slideseal-b9/SlideSeal-0.19.0-b9-windows-x86_64.zip"
         }
-      }
+      },
+      "about": {
+        "pitch": "Slides that look good, fast.",
+        "intro": "Build a deck with themes, shapes, charts and transitions, then present it full screen with presenter view. Opens and saves PowerPoint files.",
+        "description": "Pick a theme, drop in your content and SlideSeal keeps it all on brand: masters, layouts, colour and font schemes. Animate what matters, rehearse your timings and present with your notes in front of you. Send it on as .pptx, PDF or an animated GIF.",
+        "features": [
+          {
+            "title": "Themes and layouts",
+            "body": "Eight themes with colour and font schemes, slide masters and eleven layouts that keep everything in place."
+          },
+          {
+            "title": "Draw anything",
+            "body": "Over 150 shapes, connectors that stay glued, freeform and curve tools, merge shapes, gradients, shadows and glows."
+          },
+          {
+            "title": "Charts, tables and media",
+            "body": "Native charts, styled tables, pictures with crop and corrections, plus audio and video."
+          },
+          {
+            "title": "Transitions and animation",
+            "body": "Transitions including Morph, entrance, emphasis, exit and motion-path animations, built by paragraph."
+          },
+          {
+            "title": "Present with confidence",
+            "body": "Full-screen show with presenter view, a pen, a timer and rehearsed timings."
+          },
+          {
+            "title": "Plays well with others",
+            "body": "Opens and saves .pptx. Exports PDF slides, notes and handouts, PNG, JPEG and animated GIF."
+          }
+        ],
+        "screenshots": [
+          {
+            "url": "https://www.rng.media/images/apps/slideseal/edit.webp",
+            "width": 1600,
+            "height": 1000,
+            "title": "Build it",
+            "caption": "Slides grouped into sections, speaker notes underneath, the ribbon on top."
+          },
+          {
+            "url": "https://www.rng.media/images/apps/slideseal/format.webp",
+            "width": 1600,
+            "height": 1000,
+            "title": "Shape it",
+            "caption": "Select a shape and the Shape Format tab and Format pane give you fills, lines and effects."
+          },
+          {
+            "url": "https://www.rng.media/images/apps/slideseal/transitions.webp",
+            "width": 1600,
+            "height": 1000,
+            "title": "Move it",
+            "caption": "Transitions on the ribbon, animations in their own pane, a native chart on the slide."
+          },
+          {
+            "url": "https://www.rng.media/images/apps/slideseal/sorter.webp",
+            "width": 1600,
+            "height": 1000,
+            "title": "See it all",
+            "caption": "Slide Sorter shows the whole story, section by section, with each slide\u2019s transition."
+          }
+        ],
+        "page": "https://www.rng.media/slideseal",
+        "credit": "SlideSeal is based on DeckCraft by the ArtCraft team, licensed MIT OR Apache-2.0, and modified by RNG Media S.L. RNG Media is not affiliated with or endorsed by the ArtCraft team.",
+        "licences": "https://github.com/AndreRNG/rng-studio/tree/main/licences/slideseal"
+      },
+      "replaces": [
+        {
+          "id": "deckduck",
+          "name": "DeckDuck"
+        }
+      ]
     },
     {
       "id": "genio",
