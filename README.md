@@ -1,11 +1,11 @@
-# LaunchLlama
+# RNG Studio
 
-**Download: https://www.rng.media/launchllama**
+**Download: https://www.rng.media/studio**
 
-LaunchLlama installs, opens and updates RNG Media's apps: CutCat (video), PhotoFalcon (photo),
+RNG Studio installs, opens and updates RNG Media's apps: CutCat (video), PhotoFalcon (photo),
 PDFrog (PDF), DocDog (word processor) and DeckDuck (slides). Free on Mac, Windows and Linux.
 
-This repository only hosts the downloads (see Releases), the app list LaunchLlama reads
+This repository only hosts the downloads (see Releases), the app list RNG Studio reads
 (`manifest.json`) and the licences (`licences/`).
 
 The apps are modified versions of open-source projects by the ArtCraft team (FilmCraft, PhotoCraft,
