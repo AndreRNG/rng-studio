@@ -4,25 +4,25 @@
     "id": "studio",
     "name": "RNG Studio",
     "version": "0.1.0",
-    "build": 10,
+    "build": 12,
     "platforms": {
       "linux-x86_64": {
-        "sha256": "c4a5d39d1f98a1adfbba0e0408bb065cfb4ef5808d308674e8b77f14b7f0a658",
-        "size": 5509831,
+        "sha256": "3aefb3454de600066e47d6dd6630432fa7de24323531df55f7753312156d3e98",
+        "size": 5511975,
         "exe": "RNG Studio/rng-studio",
-        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b10/RNG-Studio-0.1.0-b10-linux-x86_64.tar.gz"
+        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b12/RNG-Studio-0.1.0-b12-linux-x86_64.tar.gz"
       },
       "windows-x86_64": {
-        "sha256": "a1716d9a69d88c938aa41b77d44776d4f4adef5fb8d15a951155648a7a124ec0",
+        "sha256": "f4642be2b204c1c7e4289be0b7321654b717eafd8af49b7f5301d6e6c114751d",
         "size": 9600000,
-        "exe": "RNG-Studio-0.1.0-b10-windows-x86_64.exe",
-        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b10/RNG-Studio-0.1.0-b10-windows-x86_64.exe"
+        "exe": "RNG-Studio-0.1.0-b12-windows-x86_64.exe",
+        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b12/RNG-Studio-0.1.0-b12-windows-x86_64.exe"
       },
       "macos-universal": {
-        "sha256": "5348fd2d9e593d269edacd3730c3aaa0f1fc4bef998f93faaac4ad0da03e9dc8",
-        "size": 8852358,
+        "sha256": "7c33ff0347192946217a4b1b9a0c507f523a36ab663d978caae70a7ba895682d",
+        "size": 8851581,
         "exe": "RNG Studio.app",
-        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b10/RNG-Studio-0.1.0-b10-macos-universal.zip"
+        "url": "https://github.com/AndreRNG/rng-studio/releases/download/studio-b12/RNG-Studio-0.1.0-b12-macos-universal.zip"
       }
     }
   },
