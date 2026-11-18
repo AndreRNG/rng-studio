@@ -1,0 +1,4 @@
+Streameleon uses FFmpeg (https://ffmpeg.org) under the LGPL v2.1 or later, as separate
+shared libraries in lib/. You can replace them with your own build of the same major version.
+Build: ffmpeg-n9.0.2-57-gd838f9f9ae-linux64-lgpl-shared-9.0 from https://github.com/BtbN/FFmpeg-Builds (release autobuild-2026-11-16-15-29),
+FFmpeg source: https://git.ffmpeg.org/ffmpeg.git (commit d838f9f9ae).
